@@ -1,25 +1,99 @@
-
-body {
-  background: #0eb0b0;
-  display: grid;
-  height: 100vh;
-}
-
-h1 {
+.main-title {
   text-align: center;
 }
 
+main {
+  display: flex;
+  justify-content: space-around;
+}
 
-.container {
-  width: 90%;
-  max-width: 420px;
-  background: #ffff;
-  padding: 1rem;
-  border-radius: 20px;
-  box-shadow: 0 10px 15px rgba(0, 0 ,0 ,0,);
+.main-content {
+    
+    flex: 1;
+    padding: 12px;
+    
+}
+
+.input-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form {
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.button {
+  height: 32px;
+  border-radius: 8px;
+}
+
+.submit {
+  background-color: aquamarine;
+  border: 2px solid aqua;
+  border-radius: 8px;
+
+}
+
+.reset {
+  background-color: white;
+  border: 2px solid aqua;
+  border-radius: 8px;
+
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=number]:focus {
+  border: 3px solid red;
+}
+
+.result-section {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.general-information {
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 12px;
 }
 
 
+.konsultasi-ahli-gizi-via-whatsapp {
+  background-color: aquamarine;
+  border: 2px solid aqua;
+  border-radius: 8px;
+}
 
+.registrasi-online-ahli-gizi {
+  background-color: aquamarine;
+  border: 2px solid aqua;
+  border-radius: 8px;
+}
 
+.konsultasi-dokter-via-aplikasi {
+  background-color: aquamarine;
+  border: 2px solid aqua;
+  border-radius: 8px;
+}
 
+.registrasi-online-sekarang {
+  background-color: aquamarine;
+  border: 2px solid aqua;
+  border-radius: 8px;
+}
