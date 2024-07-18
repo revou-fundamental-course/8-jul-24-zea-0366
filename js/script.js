@@ -1,24 +1,30 @@
-alert("hai")
-// 
-var messageSubmitBMI = function(){
-  console.log("submit-BMI")}
+//function
+//get value
+//calculate
+//output
 
-var messageReset = function(){
-    console.log("reset")
-   }
+//bmi formula weight / height squared * 783
 
-   var messageKonsultasiAhliGiziViaWhatsapp = function(){
-    console.log("konsultasi-ahli-gizi-via-whatsapp")
-   }
 
-   var messageRegistrasiOnlineAhliGizi = function(){
-    console.log("registrasi-online-ahli-gizi")
-   }
+function calculateBmi() {
+  let weight = document.getElementById('weight').value
+  let height = document.getElementById('height').value
 
-var messageKonsultasiDokterViaAplikasi = function(){
-  console.log("konsultasi-dokter-via-aplikasi")
-   }
+  let bmi = (weight / (height * weight) * 500)
 
-var messageRegistrasiOnlineSekarang = function(){
-  console.log("registrasi-online-sekarang")
-   }
+  document.getElementById('heading').innerHTML = 'your BMI is :'
+  document.getElementById('bmi-output').innerHTML = bmi.toFixed(1)
+
+  if (bmi < 18.5) {
+    document.getElementById('message').innerHTML = 'you are overweight'
+} else if (bmi > 25 && bmi < 30) {
+  document.getElementById('message').innerHTML = 'you are healthy weight'
+} else{
+  document.getElementById('message').innerHTML = 'you are underweight'
+}
+
+}
+
+function reload() {
+  window.location.reload()
+}
