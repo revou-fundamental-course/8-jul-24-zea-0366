@@ -5,7 +5,8 @@ body {
   padding: 100px;
   box-sizing: 100px;
   background-color: aliceblue;
-
+ display: inline-table;
+  
 }
 
 
