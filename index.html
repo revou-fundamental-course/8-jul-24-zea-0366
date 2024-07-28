@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>zea BMI calculator</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <form>
-    <form class="form-input" id="bmi-form"></form>
-    <p>Jenis Kelamin</p>
-      <input type="radio" name="jeniskelamin" id="Laki-laki" value="Laki-laki"><label for="laki-laki">laki-laki</label>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css" />
+  </head>
 
-      <input type="radio" name="jeniskelamin" id="perempuan" value="perempuan"><label for="perempuan">Perempuan</label>
-  </form>
-   <!-- Main Content -->
-  <main>
-    <!-- Sisi Kiri -->
-    <section class="section-kiri">
-      <h1>Zea's BMI Calculator</h1>
-      <label for="weight">Berat Badan (kg)</label>
-      <input id="weight" type="numbers"><br/>
-      <label for="height">Tinggi Badan (cm)</label>
-      <input id="height" type="numbers"><br/>
-      <button onclick="calculateBmi()" >Submit</button>
-      <button onclick="reload()">clear</button>
+  <body>
+    <nav>
+      <header>
+        <div class="logo-icon"></div>
+      </header>
 
- 
-       <h4 id="heading"></h4>
-       <p id="bmi-output"></p>
-       <p id="message"></p>
+      <section class="nav-container">
+        <a class="nav-item">Home</a>
+        <a class="nav-item">Our Package</a>
+        <a class="nav-item">Call Us</a>
+      </section>
+    </nav>
 
-     </section>
-  </main>
-    
+    <main>
+      <article class="main-title">
+        <header>
+          <h1>Your Trusted Travel Agent's</h1>
+        </header>
 
-      
-  
+        <p>Your happiness is our happiness</p>
+      </article>
 
+      <section class="main-content">
+        <article class="main-content-item">
+          <div class="main-content-banner"></div>
 
+          <div class="main-item">
+            <div class="item-icon"></div>
 
+            <div>
+              <h3>Zea</h3>
+              <p>President, 18 th</p>
+            </div>
+          </div>
+        </article>
 
-  <script src="./js/script.js"></script>
-</body>
+        <form class="main-content-item">
+          <input type="text" />
+          <button type="button">Submit</button>
+        </form>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
 </html>
+  
