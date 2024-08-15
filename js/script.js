@@ -1,4 +1,3 @@
-
 function calculateBMI() {
   // Get input values
   const weight = parseFloat(document.getElementById("weight").value);
@@ -41,4 +40,3 @@ function calculateBMI() {
     // ... (Adjust BMI categories as needed)
   }
 }
-// fix already
