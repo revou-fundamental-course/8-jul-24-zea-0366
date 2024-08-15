@@ -41,4 +41,4 @@ function calculateBMI() {
     // ... (Adjust BMI categories as needed)
   }
 }
-
+// fix already
